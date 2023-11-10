@@ -11,7 +11,7 @@
   "author": "Dave Gray",
   "license": "ISC",
   "engines": {
-    "node": "14.x"
+    "node": "18.x"
   },
   "dependencies": {
     "@emailjs/nodejs": "^2.2.0",
