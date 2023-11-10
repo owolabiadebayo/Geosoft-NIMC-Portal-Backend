@@ -1,2 +1,4 @@
 20230525	19:44:40	35b8b9b0-8714-4dcd-b7dc-cce21caa9783	SyntaxError: Unexpected number in JSON at position 217
 20230525	19:45:07	5114a6e1-8899-456b-9596-d5cfab91d103	SyntaxError: Unexpected number in JSON at position 216
+20231110	05:26:22	1e23d5fc-3253-498b-9c0b-245253fa015f	Error: Not allowed by CORS
+20231110	05:30:30	533a987b-7027-4a69-b588-98fca5a746d0	Error: Not allowed by CORS
