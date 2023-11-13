@@ -6918,3 +6918,10 @@
 20231110	06:34:21	a5e08d1d-8f93-423d-9c1e-cccfd4085ab7	POST	https://geosoft-nimc-portal.netlify.app	/api/auth
 20231110	06:34:32	7e090464-c66c-4103-931d-ba7f679ed543	OPTIONS	https://geosoft-nimc-portal.netlify.app	/api/auth
 20231110	06:34:32	78846098-7735-4417-b516-9fe40221b5fa	POST	https://geosoft-nimc-portal.netlify.app	/api/auth
+20231110	23:32:53	85d251e6-88b8-4fab-a3a3-3f9216ca59eb	OPTIONS	http://localhost:3000	/api/register
+20231110	23:33:57	f6bea103-d8fe-4ec1-a81e-15de2124c916	OPTIONS	http://localhost:3000	/api/register
+20231110	23:33:57	f3004685-f073-4fca-a89b-a33640c96e82	POST	http://localhost:3000	/api/register
+20231110	23:36:27	3d7c0666-d76b-4b05-961b-b69e838adac5	OPTIONS	http://localhost:3000	/api/register
+20231110	23:36:27	4a9af7c0-4598-4999-8e95-99971ea1aed2	POST	http://localhost:3000	/api/register
+20231110	23:44:00	3fb92b06-27b5-4ad8-a540-14e6ea755e1d	OPTIONS	http://localhost:3000	/api/register
+20231110	23:44:00	a1971402-addd-473b-a0c0-fe2c9acfaed2	POST	http://localhost:3000	/api/register
