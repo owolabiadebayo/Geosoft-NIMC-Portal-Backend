@@ -1,4 +1,3 @@
-require("dotenv").config();
 const express = require("express");
 const serverless = require("serverless-http");
 const app = express();
@@ -13,6 +12,7 @@ const credentials = require("./middleware/credentials");
 const mongoose = require("mongoose");
 const connectDB = require("./config/dbConn");
 const PORT = process.env.PORT || 3500;
+require("dotenv").config();
 
 // Connect to MongoDB
 connectDB();

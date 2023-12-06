@@ -87,7 +87,7 @@ const newVerification = async (req, res) => {
       maxBodyLength: Infinity,
       url: "https://tk.nimc.gov.ng/api/v1/apiVerification/enterprise/direct/vNIN",
       headers: {
-        "x-api-key": "ZhAwJKXhzzMv%nYqc3O7wxrDf3dl&8HQOkE0FW#l",
+        "x-api-key": "dgmP5YTlXyYy7SGGzjJKL5nj3f&Le%Pmxxnh&nbn",
         "Content-Type": "application/x-www-form-urlencoded",
       },
       data: datar,
