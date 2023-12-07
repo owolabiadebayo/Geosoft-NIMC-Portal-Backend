@@ -77,9 +77,9 @@ const newVerification = async (req, res) => {
     });
 
     let datar = qs.stringify({
-      agentID: "MZJNLT-8199",
+      agentID: "MQSSKY-4549",
       vNIN: req.body.verify.idno,
-      RPShortCode: "931095",
+      RPShortCode: "119887",
     });
 
     let config = {
