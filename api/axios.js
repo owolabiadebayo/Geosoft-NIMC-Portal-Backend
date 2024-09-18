@@ -1,5 +1,5 @@
 const axios = require("axios");
-const BASE_URL = "https://geosoft-nimc-portal-backend.onrender.com/api";
+const BASE_URL = "https://geosoft-nimc-portal-backend-iyh2.onrender.com/api";
 
 module.exports = axios.create({
   baseURL: BASE_URL,
