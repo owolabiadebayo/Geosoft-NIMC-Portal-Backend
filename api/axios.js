@@ -1,5 +1,5 @@
 const axios = require("axios");
-const BASE_URL = "https://geosoft-nimc-portal-backend-gpbuo7jk7-owolabiadebayos-projects.vercel.app/api";
+const BASE_URL = "https:/geosoft-nimc-portal-backend-lx6aeboyr-owolabiadebayos-projects.vercel.app/api";
 
 module.exports = axios.create({
   baseURL: BASE_URL,
