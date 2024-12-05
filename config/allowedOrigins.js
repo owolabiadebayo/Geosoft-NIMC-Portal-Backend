@@ -5,7 +5,7 @@ const allowedOrigins = [
   "http://localhost:3000",
   "https://waselocalgovernmentcouncil.com.ng",
 "https://geosoft-nimc-portal-backend.vercel.app",
-  "https://geosoft-nimc-portal-backend-ef6ylduk3-owolabiadebayos-projects.vercel.app",
+  "https://geosoft-nimc-portal-backend-gpbuo7jk7-owolabiadebayos-projects.vercel.app/api",
   undefined
 ];
 
