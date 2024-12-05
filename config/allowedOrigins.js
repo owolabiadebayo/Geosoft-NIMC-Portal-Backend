@@ -4,7 +4,7 @@ const allowedOrigins = [
   "http://localhost:3500",
   "http://localhost:3000",
   "https://waselocalgovernmentcouncil.com.ng",
-  // "https://geosoft-nimc-portal.netlify.app",
+"https://geosoft-nimc-portal-backend.vercel.app"
 ];
 
 module.exports = allowedOrigins;
