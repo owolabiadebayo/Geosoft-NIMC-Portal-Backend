@@ -5,8 +5,7 @@ const allowedOrigins = [
   "http://localhost:3000",
   "https://waselocalgovernmentcouncil.com.ng",
   "https://geosoft-nimc-portal-backend.vercel.app",
-  "https://geosoft-nimc-portal-backend-lx6aeboyr-owolabiadebayos-projects.vercel.app/api",
-  undefined
+  "https://geosoft-nimc-portal-backend-lx6aeboyr-owolabiadebayos-projects.vercel.app/api"
 ];
 
 module.exports = allowedOrigins;
