@@ -50,31 +50,31 @@ const newVerification = async (req, res) => {
         .status(StatusCodes.UNAUTHORIZED)
         .json({ message: "Invalid token or user not found." });
     }
-    const { error } = validate(req.body.verify);
-    if (error) {
-      return res.status(400).send({ message: error.details[0].message });
-    }
+    // const { error } = validate(req.body.verify);
+    // if (error) {
+    //   return res.status(400).send({ message: error.details[0].message });
+    // }
 
-    const unitResponse = await axio.get(`/unit/${email}`);
+    // const unitResponse = await axio.get(`/unit/${email}`);
 
-    const result = unitResponse.data;
+    // const result = unitResponse.data;
 
-    // Calculate available AU after deducting requested AU
-    const availableAU = result.au - 1;
+    // // Calculate available AU after deducting requested AU
+    // const availableAU = result.au - 1;
 
-    // Check if available AU is insufficient
-    if (availableAU <= 0) {
-      return res
-        .status(StatusCodes.BAD_REQUEST)
-        .json({ message: "Insufficient units to make this request." });
-    }
-    const usedUu = result.uu + 1;
+    // // Check if available AU is insufficient
+    // if (availableAU <= 0) {
+    //   return res
+    //     .status(StatusCodes.BAD_REQUEST)
+    //     .json({ message: "Insufficient units to make this request." });
+    // }
+    // const usedUu = result.uu + 1;
 
-    await axio.put(`/unit/${email}`, {
-      email: email,
-      au: availableAU,
-      uu: usedUu,
-    });
+    // await axio.put(`/unit/${email}`, {
+    //   email: email,
+    //   au: availableAU,
+    //   uu: usedUu,
+    // });
 
     let datar = qs.stringify({
       agentID: "MQSSKY-4549",
